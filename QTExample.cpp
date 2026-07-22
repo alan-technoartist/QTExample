@@ -1,20 +1,15 @@
 ﻿#include "QTExample.h"
 #include <QApplication>
-#include <QWidget>
 #include <QMainWindow>
 
-#include "ui_Formulario.h"
+#include "VentanaPrincipal.hpp"
 
 int main(int argc, char* argv[]) {
-	QApplication app(argc, argv);
+	QApplication app(argc, argv); // "Singleton" de QT
 
-	QMainWindow mainWindow;
-
-	Ui::Form ui;
-	ui.setupUi(&mainWindow);
+	VentanaPrincipal mainWindow;	// Elemento "padre"
 
 	mainWindow.show();
 
-
-    return app.exec();
+    return app.exec();	// Inicializar el motor de QT
 }

@@ -22,6 +22,8 @@ set(CMAKE_AUTORCC ON)
 add_executable (QTExample
 "QTExample.cpp"
 "QTExample.h"
+"VentanaPrincipal.cpp"
+"VentanaPrincipal.hpp"
 )
 
 target_link_libraries(QTExample PRIVATE Qt6::Core Qt6::Widgets)

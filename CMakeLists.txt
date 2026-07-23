@@ -24,7 +24,8 @@ add_executable (QTExample
 "QTExample.h"
 "VentanaPrincipal.cpp"
 "VentanaPrincipal.hpp"
-)
+"DialogoNuevoContacto.cpp"
+"DialogoNuevoContacto.hpp")
 
 target_link_libraries(QTExample PRIVATE Qt6::Core Qt6::Widgets)
 

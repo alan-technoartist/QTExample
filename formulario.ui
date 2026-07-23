@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>799</width>
-    <height>601</height>
+    <width>761</width>
+    <height>590</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -109,6 +109,30 @@
      <string>GroupBox</string>
     </property>
    </widget>
+   <widget class="QGroupBox" name="grupoContactos">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>50</y>
+      <width>331</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Lista de contactos:</string>
+    </property>
+    <widget class="QListWidget" name="listaContactos">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>256</width>
+       <height>192</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <zorder>grupoContactos</zorder>
    <zorder>groupBox</zorder>
    <zorder>pushButton</zorder>
    <zorder>inputNombre</zorder>
@@ -122,17 +146,17 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>799</width>
+     <width>761</width>
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuArchivo">
+   <widget class="QMenu" name="menuContactos">
     <property name="title">
-     <string>Archivo</string>
+     <string>Contactos</string>
     </property>
     <addaction name="actionNuevo"/>
    </widget>
-   <addaction name="menuArchivo"/>
+   <addaction name="menuContactos"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNuevo">

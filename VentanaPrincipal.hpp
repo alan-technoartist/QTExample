@@ -18,5 +18,5 @@ public:
 
 private:
 	std::unique_ptr<Ui::MainWindow> ui; // "Puente" para acceder a elementos de la UI
-
+	std::map<QString, QString> contactos; // Mapa para almacenar contactos (nombre -> correo)
 };
